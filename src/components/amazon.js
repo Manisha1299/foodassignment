@@ -6,7 +6,7 @@ const Amazon = ({ handleClick }) => {
   return (
     <>
       <section>
-        {list.map((item) => (
+        {list.obj1.map((item) => (
           <CardOne key={item.id} item={item} handleClick={handleClick} />
         ))}
       </section>

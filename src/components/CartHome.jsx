@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
 import "../styles/cart.css";
-import listTwo from "../DataItems/dataB";
 import { Routes, Route, Link } from "react-router-dom";
 const CartHome = () => {
   // const listdata = listTwo.map((inner) => inner.id + inner.img + inner.title);
@@ -12,7 +11,7 @@ const CartHome = () => {
         <div>
           <Link to="HomeCard">
             <img
-              src="https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_960_720.jpg"
+              src="https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_960_720.jpg"
               alt=""
               style={{ width: "235px" }}
             />
@@ -22,7 +21,7 @@ const CartHome = () => {
         <div>
           <Link to="HomeCardTwo">
             <img
-              src="https://cdn.pixabay.com/photo/2016/03/05/22/55/barbeque-1239407_960_720.jpg"
+              src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_960_720.jpg"
               alt=""
               style={{ width: "235px" }}
             />
